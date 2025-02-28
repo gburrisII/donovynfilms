@@ -82,7 +82,7 @@ nav {
 .background-image-mobile {
     width: 100%;
     height: 65vh;
-    background-image: url("/images/icemountain-unsplash.jpg");
+    background-image: url("../images/icemountain-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
