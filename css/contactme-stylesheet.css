@@ -19,7 +19,7 @@
     height: 500px;
     background-image: url('../images/icemountain-unsplash.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: center;
