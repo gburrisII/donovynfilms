@@ -1,14 +1,18 @@
+/* slideshow-stylesheet */
+/*
+/* carousel */
 .carousel {
   margin-top: 3rem;
   padding-top: 1rem;
 }
 
+/* image settings/styles */
 .d-block {
   object-fit: cover;
 }
 
+/* title settings */
 #section-title {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +25,7 @@
     text-align: center;
 }
 
+/* links to social accounts */
 .social-media-links-container {
     display: flex;
     justify-content: center;
@@ -39,6 +44,7 @@
     font-size: 20px;
 }
 
+/* media quieries - Mobile */
 @media screen and (max-width: 541px) {
   .image-size-slideshow-mobile {
     height: 100vh !important;

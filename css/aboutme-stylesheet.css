@@ -1,3 +1,6 @@
+/* aboutme-stylesheet */
+/*
+/* aboutme section */
 .aboutme-section {
   height: 100%;
   width: 100%;
@@ -56,6 +59,7 @@
   color: white;
 }
 
+/* button  */
 .container-button-aboutme {
   margin: auto;
   margin-top: 2rem;
@@ -82,14 +86,12 @@
 
 /* media quieries */
 /* Desktop */
-/* checked-good */
 @media screen and (max-width: 667px) {
   .show-on-desktop-aboutme {
     display: none;
   }
 }
 
-/* checked-good */
 @media screen and (min-width: 1280px) {
   .section-settings {
     height: 100vh;
@@ -123,7 +125,6 @@
     padding-top: 1rem;
   }
 
-  /* checked-good */
   /* increases size of button on mobile view so it spans across device */
   .increase-size-on-mobile-aboutme {
     width: 100% !important;

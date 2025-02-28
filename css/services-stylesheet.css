@@ -102,6 +102,10 @@
   padding: 1rem;
 }
 
+.button-text {
+  color: black !important;
+}
+
 .my-button {
   background-color: white;
   color: black;

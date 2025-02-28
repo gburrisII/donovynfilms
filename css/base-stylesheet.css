@@ -2,36 +2,37 @@
 /*
 /* base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*   color: var(--primary); */
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Quicksand", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: black;
-    /* background: radial-gradient(#7393B3, #1a1f1d); */
-    color: #e1eeeb;
-    min-height: 100vh;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding-left: 0rem;
-  }
-  
-  a {
-    color: white;
-  }
-  
-  a:visited {
-    color: white;
-  }
-  
-  /* a:hover {
-      color: #6F86FF;
-    } */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*   color: var(--primary); */
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  /* background: radial-gradient(#7393B3, #1a1f1d); */
+  color: #e1eeeb;
+  min-height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none !important;
+}
