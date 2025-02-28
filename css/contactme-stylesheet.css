@@ -14,13 +14,13 @@
     flex-direction: column;
 }
 
-.contact-background-image {
+#contact-background-image {
     width: 100%;
     height: 500px;
     background-image: url('../images/icemountain-unsplash.jpg');
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-attachment: fixed;
+    background-size: cover;
+    /* position: fixed; */
     background-position-x: center;
     background-position-y: center;
     object-fit: cover;
