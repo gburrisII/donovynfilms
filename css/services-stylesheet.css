@@ -1,0 +1,142 @@
+/* accordion.component.css */
+/* base styles */
+
+/* a:hover {
+  color: #6F86FF;
+} */
+
+/* accordion */
+.accordion-ns {
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.accordion-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.top-bar {
+  border-top: 2px solid white;
+}
+
+.accordionTitle {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  font-family: "proxima-nova", sans-serif;
+}
+
+.accordionTitle + .accordion-content {
+  display: none;
+}
+
+.accordionTitle.is-open + .accordion-content {
+  display: block;
+}
+
+.accordion-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  line-height: 30px;
+  border-bottom: 2px solid white;
+  font-family: "proxima-nova", sans-serif;
+}
+
+/* services text */
+#services-title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding: 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.services-info-text {
+  padding: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 30px;
+  inline-size: 500px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "proxima-nova", sans-serif;
+  color: white;
+  overflow-wrap: break-word;
+}
+
+.container-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+/* button */
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.my-button {
+  background-color: white;
+  color: black;
+  border: none;
+  height: 75px;
+  width: 275px;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #7393b3;
+  color: black;
+}
+
+/* media quieries - Mobile */
+@media screen and (max-width: 430px) {
+  .increase-size-on-mobile {
+    width: 100%;
+  }
+
+  .increase-text-size-on-mobile {
+    inline-size: 100%;
+  }
+}
+
+/* iphone se device horizontal view */
+@media only screen and (min-width: 667px) and (max-height: 375px) {
+  .increase-size-on-mobile {
+    width: 100%;
+  }
+
+  .increase-text-size-on-mobile {
+    inline-size: 100%;
+  }
+}
