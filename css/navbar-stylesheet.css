@@ -61,7 +61,7 @@ nav {
 .background-image {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/icemountain-unsplash.jpg");
+  /* background-image: url("../images/icemountain-unsplash.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -69,6 +69,49 @@ nav {
   background-position-x: center;
   background-position-y: center;
 }
+
+.container-video {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-video-mobile {
+    width: 100%;
+    height: 65vh;
+}
+
+#background-video-mobile {
+    /* width: 100%; */
+    height: 65vh;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    /* background-position-x: center;
+    background-position-y: center;
+    position: absolute; */
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    z-index: -1;
+  }
+
+
+#background-video {
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    /* background-position-x: center;
+    background-position-y: center;
+    position: absolute; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
 
 .background-container-mobile {
   width: 100%;
@@ -296,4 +339,27 @@ nav {
   .adjust-height-mobile {
     height: 100vh;
   }
+}
+
+
+/* video settings */
+@media (min-aspect-ratio:16/9) {
+    #background-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    #background-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    #background-video-mobile {
+        width: auto;
+        height: 65vh;
+    }
 }

@@ -54,7 +54,7 @@ nav {
   /* background container/image */
   .background-container {
     width: 100%;
-    height: 75vh;
+    height: 40vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ nav {
   
   .background-image {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     background-image: url("../images/icemountain-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,19 +98,39 @@ nav {
   
   .sub-text {
     font-family: "Archivo Black", sans-serif;
-    font-size: 70px;
+    font-size: 2rem;
     text-align: center;
   }
   
   .sub-text-mobile {
     font-family: "Archivo Black", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
   }
   
   .sub-text-mobile.active {
     display: none;
   }
+
+  .sub-text-services {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .sub-text-services-mobile {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 1rem;
+  }
+  
+  .sub-text-services-mobile.active {
+    display: none;
+  }
+  
   
   /* logo/title */
   #logo {
@@ -254,6 +274,154 @@ nav {
     gap: 40px;
     font-size: 1.5rem;
   }
+
+
+
+
+
+
+
+/* contactme-stylesheet */
+/*
+/* contactme section */
+
+/* background container/image */
+
+#service-background-image-001 {
+  width: 100%;
+  height: 65vh;
+  background-image: url('../images/colormtns-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: cover;
+}
+
+#service-background-image-002 {
+  width: 100%;
+  height: 65vh;
+  background-image: url('../images/rock-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: cover;
+}
+
+#service-background-image-003 {
+  width: 100%;
+  height: 65vh;
+  background-image: url('../images/snowtrees-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: cover;
+}
+
+#service-background-image-004 {
+  width: 100%;
+  height: 65vh;
+  background-image: url('../images/trees-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: cover;
+}
+
+#service-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.service-title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* button */
+.container-button {
+  /* width: 100%; */
+  padding: 1rem;
+}
+
+.my-button {
+  background:  transparent;
+  color: white;
+  border: none;
+  height: 75px;
+  width: 275px;
+  border-radius: 8px;
+  border:  2px solid white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.my-button:hover {
+  /* background-color: #7393B3; */
+  color: white;
+}
+
+/* media quieries - Mobile */
+@media screen and (max-width: 430px) {
+  .mobile-media-settings {
+      width: 100%;
+  }
+
+  .increase-size-on-mobile {
+      width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* media quieries */
   /* media quieries - Desktop */
@@ -270,12 +438,6 @@ nav {
     }
   }
   
-  @media screen and (max-width: 767px) {
-    .hide-on-mobile-phone {
-      display: none;
-    }
-  }
-  
   /* media quieries - Mobile */
   @media screen and (max-height: 431px) {
     .adjust-height-mobile {
@@ -287,14 +449,6 @@ nav {
     }
   }
   
-  /* specific device media quieries/settings */
-  /* Galaxy Z fold 5 */
-  @media only screen and (max-width: 882px) and (max-height: 344px) {
-    .hide-on-mobile-phone {
-      display: none;
-    }
-  }
-  
   /* Nest Hub */
   @media only screen and (max-width: 1024px) and (max-height: 600px) {
     .adjust-height-mobile {
@@ -302,3 +456,15 @@ nav {
     }
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
