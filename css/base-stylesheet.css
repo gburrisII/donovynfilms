@@ -36,3 +36,7 @@ a:hover {
   color: white;
   text-decoration: none !important;
 }
+
+.button-href {
+    color: black !important;
+}

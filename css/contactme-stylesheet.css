@@ -88,7 +88,7 @@
 }
 
 /* media quieries - Desktop */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
     .desktop-settings-left {
         margin-left: 250px;
     }

@@ -8,6 +8,16 @@ hamMenu.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
+// scripts for ham-menu and off-screen-menu
+const myButtonPopUp = document.querySelector(".my-button-popup");
+
+const offScreenMenuPopUp = document.querySelector(".off-screen-menu-popup");
+
+myButtonPopUp.addEventListener("click", () => {
+    myButtonPopUp.classList.toggle("active");
+    offScreenMenuPopUp.classList.toggle("active");
+});
+
 // scripts for services section (accordion)
 const accordionTitles = document.querySelectorAll(".accordionTitle");
 
@@ -53,4 +63,18 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+}
+
+
+// scripts for contact me pop up page
+function togglePopup() {
+    const overlay = document.getElementById('popupOverlay');
+    overlay.classList.toggle('show');
+
+    // Disable or enable background scroll based on popup visibility
+    if (overlay.classList.contains('show')) {
+        document.body.style.overflow = 'hidden'; // Disable scroll
+    } else {
+        document.body.style.overflow = ''; // Enable scroll (revert to default)
+    }
 }
