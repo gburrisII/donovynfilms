@@ -1,4 +1,4 @@
-/* navbar-stylesheet */
+/* contact-subpage-stylesheet */
 /*
 /* navbar */
 nav {
@@ -268,6 +268,7 @@ nav {
   background-position-x: center;
   background-position-y: center;
   object-fit: cover;
+  object-position: bottom;
   /* The CSS property object-fit: cover is used to adjust to any image frame/size for all devices */
 }
 
@@ -361,7 +362,6 @@ nav {
 }
 
 /* Code for pop up */
-
 .overlay-container {
   display: none;
   position: fixed;
@@ -477,7 +477,7 @@ nav {
   cursor: pointer;
 }
 
-.fa-instagram {
+.insta-popup {
   color: black;
   font-size: 2rem;
   margin-bottom: 2rem;

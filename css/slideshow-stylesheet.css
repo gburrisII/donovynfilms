@@ -9,6 +9,7 @@
 /* image settings/styles */
 .d-block {
   object-fit: cover;
+  height: 100vh;
 }
 
 /* title settings */
@@ -49,6 +50,16 @@
   .image-size-slideshow-mobile {
     height: 100vh !important;
     /* object-fit: cover; */
+  }
+
+  .obj-pos-002 {
+    object-position: right;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .obj-pos-002 {
+    object-position: right;
   }
 }
 

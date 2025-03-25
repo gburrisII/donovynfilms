@@ -1,21 +1,17 @@
 // scripts for ham-menu and off-screen-menu
 const hamMenu = document.querySelector(".ham-menu");
-
 const offScreenMenu = document.querySelector(".off-screen-menu");
 
 hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
-});
 
-// scripts for ham-menu and off-screen-menu
-const myButtonPopUp = document.querySelector(".my-button-popup");
-
-const offScreenMenuPopUp = document.querySelector(".off-screen-menu-popup");
-
-myButtonPopUp.addEventListener("click", () => {
-    myButtonPopUp.classList.toggle("active");
-    offScreenMenuPopUp.classList.toggle("active");
+  // Disable scroll when off-screen menu is active, enable when inactive
+  if (offScreenMenu.classList.contains("active")) {
+    document.body.style.overflow = "hidden"; // Disable scroll
+  } else {
+    document.body.style.overflow = ""; // Enable scroll (revert to default)
+  }
 });
 
 // scripts for services section (accordion)

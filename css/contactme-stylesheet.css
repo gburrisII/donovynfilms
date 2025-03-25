@@ -20,7 +20,7 @@
 #contact-background-image {
     width: 100%;
     height: 500px;
-    background-image: url('../images/icemountain-unsplash.jpg');
+    background-image: url('../images/IMG_0885.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     /* position: fixed; */
@@ -80,7 +80,7 @@
 
 .footer-text {
     font-family: "Archivo Black", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .footer-sub-text {
