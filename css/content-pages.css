@@ -1,0 +1,157 @@
+.service-video {
+    width: 60%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    object-fit: cover;
+    object-position: bottom;
+    /* The CSS property object-fit: cover is used to adjust to any image frame/size for all devices */
+}
+
+.service-video-mobile {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    object-fit: cover;
+    object-position: bottom;
+    /* The CSS property object-fit: cover is used to adjust to any image frame/size for all devices */
+}
+.content-image {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/behindthescencescontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.content-image-mobile {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/behindthescencescontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .content-image-001 {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/brandcampaign.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.content-image-001-mobile {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/brandcampaign.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .content-image-002 {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/concertcontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.content-image-002-mobile {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/concertcontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .content-image-003 {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/musicvideocontent.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.content-image-003-mobile {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/musicvideocontent.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .content-image-004 {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/sportscontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.content-image-004-mobile {
+    width: 100%;
+    height: 65vh;
+    background-image: url("../images/sportscontentcover.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* The CSS property background-attachment: fixed; does not work on mobile devces */
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+
+.content-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.content-section-mobile {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}

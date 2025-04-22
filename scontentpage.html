@@ -16,11 +16,15 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap stylesheet link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- base stylesheet link -->
     <link href="css/base-stylesheet.css" rel="stylesheet" />
     <!-- services-subpage stylesheet link -->
+    <link href="css/services-subpage-stylesheet.css" rel="stylesheet" />
+    <!-- contact-subpage stylesheet link -->
     <link href="css/contact-subpage-stylesheet.css" rel="stylesheet" />
+    <!-- content-pages stylesheet link -->
+    <link href="css/content-pages.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -30,28 +34,22 @@
         <!-- off screen menu -->
         <div class="off-screen-menu">
             <!-- logo/title -->
-            <h1>
-                <a id="logo-mobile-off-screen-menu" href="./index.html">DON CHEVAN</a>
-            </h1>
+            <h1><a id="logo-mobile-off-screen-menu" href="./index.html">DON CHEVAN</a></h1>
             <!-- service links -->
             <ul class="services-off-screen-menu">
-                <li>
-                    <a class="underline-text-mobile" href="./services.html">Services</a>
-                </li>
+                <li><a class="underline-text-mobile" href="./services.html">Services</a></li>
                 <li><a class="underline-text-mobile" href="#">Colors</a></li>
-                <li>
-                    <a class="underline-text-mobile" href="./contact.html">Contact</a>
-                </li>
+                <li><a class="underline-text-mobile" href="./contact.html">Contact</a></li>
             </ul>
             <!-- social media links -->
-            <li class="social-media-links-off-screen-menu">
+            <li class="social-media-links-off-screen-menu adjust-margins-mobile">
                 <a class="underline-text-social-mobile" href="#"><i class="fab fa-facebook"></i></a>
                 <a class="underline-text-social-mobile" href="#"><i class="fab fa-twitter"></i></a>
                 <a class="underline-text-social-mobile" href="#"><i class="fab fa-instagram"></i></a>
             </li>
         </div>
         <!-- initial mobile menu -->
-        <div>
+        <div class="content-image-004-mobile adjust-height-mobile" style="margin-bottom: 2rem;">
             <header>
                 <nav class="navbar-mobile">
                     <!-- logo/title -->
@@ -63,13 +61,21 @@
                         <span></span>
                     </div>
                 </nav>
+                <div class="background-container-mobile adjust-container-height-mobile">
+                    <!-- text -->
+                    <p class="sub-text-mobile">SPORTS CONTENT</p>
+                    <p class="sub-text-services-mobile text-wrapping">Behind the scenes content is a dynamic and impactful medium for businesses to convey their messages, products, and services to a wider audience. 
+                        It combines the art of storytelling with the power of visuals, sound, and emotion to engage and captivate viewers. 
+                        With our media production services, we bring businesses to the next level by creating compelling and professional commercial films that leave a lasting impression.</p>
+                </div>
             </header>
         </div>
     </div>
+
     <!-- navbar for Desktop -->
     <div class="show-on-desktop hide-on-mobile">
         <!-- background-image -->
-        <div>
+        <div class="content-image-004">
             <header>
                 <!-- social media links -->
                 <li class="social-media-links">
@@ -82,28 +88,31 @@
                     <h1><a id="logo" href="./index.html">DON CHEVAN</a></h1>
                     <!-- service links -->
                     <ul>
-                        <li>
-                            <a class="underline-text" href="./services.html">Services</a>
-                        </li>
+                        <li><a class="underline-text" href="./services.html">Services</a></li>
                         <li><a class="underline-text" href="#">Colors</a></li>
-                        <li>
-                            <a class="underline-text" href="./contact.html">Contact</a>
-                        </li>
+                        <li><a class="underline-text" href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </header>
+            <div class="background-container">
+                <!-- text -->
+                <p class="sub-text">SPORTS CONTENT</p>
+                <p class="sub-text-services" style="padding: 1rem;">Behind the scences content is a dynamic and impactful medium for businesses to convey their messages, products, and services to a wider audience. 
+                    It combines the art of storytelling with the power of visuals, sound, and emotion to engage and captivate viewers. 
+                    With our media production services, we bring businesses to the next level by creating compelling and professional commercial films that leave a lasting impression.</p>
+            </div>
         </div>
     </div>
 
-    <!-- aboutme code -->
-    <!-- aboutme for Moblie -->
+    <!-- content code -->
+    <!-- content section for Moblie -->
     <div class="hide-on-desktop-aboutme show-on-mobile">
-        <section class="aboutme-section mobile-section-settings iphone-se-section-settings">
+        <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
             <div class="aboutme-text-container mobile-text-container-settings iphone-se-container-settings">
                 <!-- <h1 class="aboutme-title mobile-media-settings">LET'S CONNECT</h1> -->
-                <img src="./images/contactmephoto.jpeg"
-                    class="aboutme-image mobile-image-settings iphone-se-image-settings image-size" alt="image" />
-                <h1 class="aboutme-title mobile-media-settings">LET'S CONNECT</h1>
+                <img src="./images/brandcampaign.jpeg"
+                    class="service-video-mobile mobile-image-settings iphone-se-image-settings image-size" alt="image" />
+                <h1 class="aboutme-title mobile-media-settings">VIDEO TITLE</h1>
                 <p class="aboutme-text mobile-media-settings mobile-text-settings iphone-se-text-settings">
                     At Dante Films, we believe that behind every successful project lies
                     the power of genuine human connection. We're not just a faceless
@@ -113,21 +122,42 @@
                 </p>
                 <div class="container-button-aboutme mobile-media-settings">
                     <button class="my-button-popup increase-size-on-mobile-aboutme" onclick="togglePopup()">
-                        CONTACT US
+                        Link TO VIDEO
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
+            <div class="aboutme-text-container mobile-text-container-settings iphone-se-container-settings">
+                <!-- <h1 class="aboutme-title mobile-media-settings">LET'S CONNECT</h1> -->
+                <img src="./images/brandcampaign.jpeg"
+                    class="service-video-mobile mobile-image-settings iphone-se-image-settings image-size" alt="image" />
+                <h1 class="aboutme-title mobile-media-settings">VIDEO TITLE</h1>
+                <p class="aboutme-text mobile-media-settings mobile-text-settings iphone-se-text-settings">
+                    At Dante Films, we believe that behind every successful project lies
+                    the power of genuine human connection. We're not just a faceless
+                    entity; we are a team of passionate storytellers led by Dante
+                    Pascarella himself. As you embark on your creative journey with us,
+                    it's essential to know the personalities behind the lens.
+                </p>
+                <div class="container-button-aboutme mobile-media-settings">
+                    <button class="my-button-popup increase-size-on-mobile-aboutme" onclick="togglePopup()">
+                        Link TO VIDEO
                     </button>
                 </div>
             </div>
         </section>
     </div>
 
-    <!-- aboutme for Desktop & Ipad -->
+    <!-- content section for Desktop & Ipad -->
     <div class="show-on-desktop-aboutme hide-on-mobile">
-        <section class="aboutme-section section-settings">
+        <section class="content-section section-settings">
             <!-- image -->
-            <img src="./images/contactmephoto.jpeg"
-                class="aboutme-image asus-image-size ipad-image-settings ipad-image-size image-size" alt="image" />
+            <img src="./images/brandcampaign.jpeg"
+                class="service-video asus-image-size ipad-image-settings ipad-image-size image-size" alt="image" />
             <div class="aboutme-text-container">
-                <h1 class="aboutme-title ipad-media-settings">LET'S CONNECT</h1>
+                <h1 class="aboutme-title ipad-media-settings">VIDEO TITLE</h1>
                 <p class="aboutme-text ipad-media-settings">
                     At Dante Films, we believe that behind every successful project lies
                     the power of genuine human connection. We're not just a faceless
@@ -137,90 +167,32 @@
                 </p>
                 <div class="container-button-aboutme ipad-media-settings">
                     <button class="my-button-popup" onclick="togglePopup()">
-                        CONTACT US
+                        LINK TO VIDEO
                     </button>
                 </div>
             </div>
         </section>
-    </div>
 
-    <div id="popupOverlay" class="overlay-container">
-        <div class="popup-box">
-            <div class="popup-header">
-                <h2 style="color: black; margin-bottom: 1rem;  font-family: 'Archivo Black', sans-serif;">CONTACT US
-                </h2>
-                <a><i class="fa-solid fa-xmark" onclick="togglePopup()"></i></a>
-            </div>
-            <div>
-                <h5 style="color: black; margin-bottom: 1rem;  font-family: 'proxima-nova', sans-serif;">Please feel
-                    free to DM me on Instagram or fill out the form below to send me an email.
-                </h5>
-                <a href="#"><i class="fab fa-instagram insta-popup"></i></a>
-            </div>
-            <form action="https://api.web3forms.com/submit" method="POST" class="form-container">
-                <!-- Replace with your Access Key -->
-                <input type="hidden" name="access_key" value="df9e0c2f-b6fc-45df-be2f-19dfe8e4e4c1" />
-
-                <div class="testing">
-                    <div class="testing-2">
-                        <label class="form-label" for="email">First Name</label>
-                        <input class="form-input-2" type="text" placeholder="Your first name.." id="fname"
-                            name="First Name" required />
-                    </div>
-                    <div class="testing-2">
-                        <label class="form-label" for="email">Last Name</label>
-                        <input class="form-input-2" type="text" placeholder="Your last name.." id="lname"
-                            name="Last Name" required />
-                    </div>
+        <section class="content-section section-settings">
+            <div class="aboutme-text-container">
+                <h1 class="aboutme-title ipad-media-settings">VIDEO TITLE</h1>
+                <p class="aboutme-text ipad-media-settings">
+                    At Dante Films, we believe that behind every successful project lies
+                    the power of genuine human connection. We're not just a faceless
+                    entity; we are a team of passionate storytellers led by Dante
+                    Pascarella himself. As you embark on your creative journey with us,
+                    it's essential to know the personalities behind the lens.
+                </p>
+                <div class="container-button-aboutme ipad-media-settings">
+                    <button class="my-button-popup" onclick="togglePopup()">
+                        LINK TO VIDEO
+                    </button>
                 </div>
-
-                <div class="testing">
-                    <div class="testing-2">
-                        <label class="form-label" for="country">Country</label>
-                        <select class="form-input-3" id="country" name="country">
-                            <option value="United States">United States</option>
-                            <option value="Australia">Australia</option>
-                            <option value="Canada">Canada</option>
-                        </select>
-                    </div>
-                    <div class="testing-2">
-                        <label class="form-label" for="number">Phone Number</label>
-                        <input class="form-input-2" type="text" placeholder="+1" id="number" name="Number" required />
-                    </div>
-                </div>
-
-                <label class="form-label" for="email">Email</label>
-                <input class="form-input" type="email" placeholder="Enter Your Email" id="email" name="email"
-                    required />
-
-                <label class="form-label" for="location">Location</label>
-                <input class="form-input" type="text" placeholder="Where are you located?" id="location" name="Location"
-                    required />
-
-                <label class="form-label" for="subject">What can we help you with?</label>
-                <select class="form-input-3" id="subject" name="subject">
-                    <option value="" selected disabled hidden>Select an option</option>
-                    <option value="Behind The Scenes Content">Behind The Scenes Content</option>
-                    <option value="Concerts & Events Content">Concerts & Events Content</option>
-                    <option value="Music Video Content">Music Video Content</option>
-                    <option value="Sports Content">Sports Content</option>
-                </select>
-
-                <label class="form-label" for="information">Tell us a bit more about the project?</label>
-                <textarea class="form-input" id="information" name="Tell us a bit more about the project?"
-                    placeholder="Write something.." style="height:150px"></textarea>
-
-                <label class="form-label" for="website">Website</label>
-                <input class="form-input" type="text" placeholder="What's your website, leave blank if none."
-                    id="website" name="Website" required />
-
-                <label class="form-label" for="socials">Social Media Handle</label>
-                <input class="form-input" type="text" placeholder="Instagram, or Tiktok?" id="socials"
-                    name="Social Media Handle" required />
-
-                <button class="btn-submit" type="submit">Submit</button>
-            </form>
-        </div>
+            </div>
+              <!-- image -->
+              <img src="./images/brandcampaign.jpeg"
+              class="service-video asus-image-size ipad-image-settings ipad-image-size image-size" alt="image" />
+        </section>
     </div>
 
     <div class="contact-footer">
