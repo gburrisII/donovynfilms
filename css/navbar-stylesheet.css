@@ -231,7 +231,7 @@ nav {
 /* off-screen-menu */
 .off-screen-menu {
   background-color: white;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   /*   max-width: 450px; */
   position: fixed;

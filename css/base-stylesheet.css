@@ -94,6 +94,11 @@ a:hover {
   -webkit-tap-highlight-color: transparent;
 }
 
+#playPauseButton_mobile:focus {
+outline: none;
+}
+
+
 #playPauseButton_mobile2 {
   position: absolute;
   top: 57.5%;
@@ -112,6 +117,10 @@ a:hover {
   font-size: 2rem;
   -webkit-tap-highlight-color: transparent;
 }
+
+#playPauseButton_mobile2:focus {
+  outline: none;
+  }
 
 #playPauseButton:focus {
   outline: none;
