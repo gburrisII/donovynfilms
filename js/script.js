@@ -74,3 +74,16 @@ function togglePopup() {
         document.body.style.overflow = ''; // Enable scroll (revert to default)
     }
 }
+
+const video = document.getElementById("background-video");
+const playButton = document.getElementById("playButton");
+
+playButton.addEventListener("click", function() {
+  if (video.paused) {
+    video.play();
+    playButton.textContent = "Pause";
+  } else {
+    video.pause();
+    playButton.textContent = "Play";
+  }
+});
