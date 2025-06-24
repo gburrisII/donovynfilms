@@ -138,6 +138,7 @@ nav {
   width: 40px;
   margin-left: auto;
   position: relative;
+  /* z-index: 1; */
 }
 
 .ham-menu span {
@@ -198,6 +199,7 @@ nav {
 
 .off-screen-menu.active {
   right: 0;
+  /* z-index: 1; */
 }
 
 #logo-mobile-off-screen-menu {
