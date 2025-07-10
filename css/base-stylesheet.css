@@ -238,3 +238,9 @@ outline: none;
   z-index: -1;
   object-fit: cover;
 }
+
+select {
+  -webkit-appearance: none; /* For Chrome, Safari, and newer browsers */
+  -moz-appearance: none;    /* For Firefox */
+  appearance: none;         /* Standard property */
+}
