@@ -65,7 +65,7 @@ nav {
   .background-image {
     width: 100%;
     height: 65vh;
-    background-image: url("../images/servicescover.jpeg");
+    background-image: url("../images/IMG_0885.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -87,7 +87,7 @@ nav {
   .background-image-mobile {
     width: 100%;
     height: 65vh;
-    background-image: url("../images/servicescover.jpeg");
+    background-image: url("../images/IMG_0885.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -317,7 +317,7 @@ nav {
 #service-background-image-003 {
   width: 100%;
   height: 65vh;
-  background-image: url('../images/musicvideocontent.jpeg');
+  background-image: url('../images/lilyatchystill.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   /* position: fixed; */

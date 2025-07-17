@@ -132,7 +132,7 @@
 
         <section class="video-container">
           <!-- background-video -->
-          <video playsinline muted loop id="background-video1">
+          <video playsinline loop id="background-video1">
               <source src="./images/GIO X ONYX  3.MOV" type="video/mp4"/>
           </video>
           <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title ipad-media-settings">
@@ -140,11 +140,12 @@
           </h1>
           <br />
           <button id="playPauseButton"><i class="fa-solid fa-play"></i></button>
+          <button id="resizeButton">Resize Video</button>
         </section>
   
         <section class="video-container">
           <!-- background-video -->
-          <video playsinline muted loop id="background-video2">
+          <video playsinline loop id="background-video2">
             <source src="./images/lil yachty club performance.mp4" type="video/mp4"/>
           </video>
           <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_2 ipad-media-settings">
@@ -293,6 +294,23 @@
         playButton.classList.add("hidden");
         thumbnailTitle.classList.add("hidden");
       });
+
+        const video = document.getElementById("background-video1");
+        const button = document.getElementById("resizeButton");
+        let isLarge = false;
+
+        button.addEventListener("click", () => {
+          if (isLarge) {
+            video.style.width = "100%";
+            video.style.height = "75vh";
+            isLarge = false;
+          } else {
+            video.style.width = "100%";
+            video.style.height = "100vh";
+            isLarge = true;
+          }
+        });
+
     </script>
     <!-- base javascript file -->
     <script src="js/script.js"></script>
