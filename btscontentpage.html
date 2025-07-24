@@ -105,26 +105,29 @@
         <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
           <div style="padding-top: 1rem;" class="video-container-mobile mobile-text-container-settings iphone-se-container-settings">
             <!-- background-video -->
-            <video playsinline muted loop id="background-video-mobile1">
-              <source src="./images/GIO X ONYX  3.MOV" type="video/mp4" />
+            <video playsinline loop id="background-video-mobile1">
+              <source src="./images/DSH boxing event landscaspe.MOV" type="video/mp4" />
             </video>
-            <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_mobile ipad-media-settings">GIO X ONYX</h1>
+            <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_mobile ipad-media-settings">
+              BRAND RISK BOXING EVENT<br>
+              <p style="font-size: 1rem !important;">ADIN ROSS - DESHAE FROST<br>2024</p>
+            </h1>
             <br>
             <button id="playPauseButton_mobile"><i class="fa-solid fa-play"></i></button>
           </div>
         </section>
   
-        <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
-          <div class="video-container-mobile mobile-text-container-settings iphone-se-container-settings">
+        <!-- <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
+          <div class="video-container-mobile mobile-text-container-settings iphone-se-container-settings"> -->
             <!-- background-video -->
-            <video playsinline muted loop id="background-video-mobile2">
+            <!-- <video playsinline loop id="background-video-mobile2">
               <source src="./images/lil yachty club performance.mp4" type="video/mp4"/>
             </video>
             <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_mobile2 ipad-media-settings">LIL YATCHY CLUB</h1>
             <br>
             <button id="playPauseButton_mobile2"><i class="fa-solid fa-play"></i></button>
           </div>
-        </section>
+        </section> -->
       </div>
 
     <!-- content section for Desktop & Ipad -->
@@ -133,19 +136,20 @@
         <section class="video-container">
           <!-- background-video -->
           <video playsinline loop id="background-video1">
-              <source src="./images/GIO X ONYX  3.MOV" type="video/mp4"/>
+              <source src="./images/DSH boxing event landscaspe.MOV" type="video/mp4"/>
           </video>
           <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title ipad-media-settings">
-              GIO X ONYX
+              BRAND RISK BOXING EVENT<br>
+              <p style="font-size: 1rem !important;">ADIN ROSS - DESHAE FROST<br>2024</p>
           </h1>
           <br />
           <button id="playPauseButton"><i class="fa-solid fa-play"></i></button>
-          <button id="resizeButton">Resize Video</button>
+          <!-- <button id="resizeButton">Resize Video</button> -->
         </section>
   
-        <section class="video-container">
+        <!-- <section class="video-container"> -->
           <!-- background-video -->
-          <video playsinline loop id="background-video2">
+          <!-- <video playsinline loop id="background-video2">
             <source src="./images/lil yachty club performance.mp4" type="video/mp4"/>
           </video>
           <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_2 ipad-media-settings">
@@ -153,7 +157,7 @@
           </h1>
           <br />
           <button id="playPauseButton2"><i class="fa-solid fa-play"></i></button>
-        </section>
+        </section> -->
   
       </div>
 
@@ -205,34 +209,35 @@
       });
 
     // Function for Video 2
-      const myVideoMobile2 = document.getElementById("background-video-mobile2");
-      const playButtonMobile2 = document.getElementById("playPauseButton_mobile2");
-      const thumbnailTitleMobile2 = document.querySelector(".tumbnail_title_mobile2");
+      // const myVideoMobile2 = document.getElementById("background-video-mobile2");
+      // const playButtonMobile2 = document.getElementById("playPauseButton_mobile2");
+      // const thumbnailTitleMobile2 = document.querySelector(".tumbnail_title_mobile2");
 
       // Play video when the button is clicked
-      playButtonMobile2.addEventListener("click", () => {
-        myVideoMobile2.play(); // just play, not toggle
-      });
+      // playButtonMobile2.addEventListener("click", () => {
+      //   myVideoMobile2.play(); 
+        // just play, not toggle
+      // });
 
       // Pause video when the video itself is clicked
-      myVideoMobile2.addEventListener("click", () => {
-        if (!myVideoMobile2.paused) {
-            myVideoMobile2.pause();
-        }
-      });
+      // myVideoMobile2.addEventListener("click", () => {
+      //   if (!myVideoMobile2.paused) {
+      //       myVideoMobile2.pause();
+      //   }
+      // });
 
       // Show button when video is paused or ended
-      myVideoMobile2.addEventListener("pause", () => {
-        playButtonMobile2.classList.remove("hidden");
-        thumbnailTitleMobile2.classList.remove("hidden");
-        playButtonMobile2.innerHTML = '<i class="fa-solid fa-play"></i>';
-      });
+      // myVideoMobile2.addEventListener("pause", () => {
+      //   playButtonMobile2.classList.remove("hidden");
+      //   thumbnailTitleMobile2.classList.remove("hidden");
+      //   playButtonMobile2.innerHTML = '<i class="fa-solid fa-play"></i>';
+      // });
 
       // Hide button when video starts playing
-      myVideoMobile2.addEventListener("play", () => {
-        playButtonMobile2.classList.add("hidden");
-        thumbnailTitleMobile2.classList.add("hidden");
-      });
+      // myVideoMobile2.addEventListener("play", () => {
+      //   playButtonMobile2.classList.add("hidden");
+      //   thumbnailTitleMobile2.classList.add("hidden");
+      // });
 
     // Desktop & Ipad
     // Function for Video 1
@@ -266,50 +271,51 @@
       });
 
     // Function for Video 2
-      const myVideo2 = document.getElementById("background-video2");
-      const playButton = document.getElementById("playPauseButton2");
-      const thumbnailTitle = document.querySelector(".tumbnail_title_2");
+      // const myVideo2 = document.getElementById("background-video2");
+      // const playButton = document.getElementById("playPauseButton2");
+      // const thumbnailTitle = document.querySelector(".tumbnail_title_2");
 
       // Play video when the button is clicked
-      playButton.addEventListener("click", () => {
-        myVideo2.play(); // just play, not toggle
-      });
+      // playButton.addEventListener("click", () => {
+      //   myVideo2.play(); 
+        // just play, not toggle
+      // });
 
       // Pause video when the video itself is clicked
-      myVideo2.addEventListener("click", () => {
-        if (!myVideo2.paused) {
-          myVideo2.pause();
-        }
-      });
+      // myVideo2.addEventListener("click", () => {
+      //   if (!myVideo2.paused) {
+      //     myVideo2.pause();
+      //   }
+      // });
 
       // Show button when video is paused or ended
-      myVideo2.addEventListener("pause", () => {
-        playButton.classList.remove("hidden");
-        thumbnailTitle.classList.remove("hidden");
-        playButton.innerHTML = '<i class="fa-solid fa-play"></i>';
-      });
+      // myVideo2.addEventListener("pause", () => {
+      //   playButton.classList.remove("hidden");
+      //   thumbnailTitle.classList.remove("hidden");
+      //   playButton.innerHTML = '<i class="fa-solid fa-play"></i>';
+      // });
 
       // Hide button when video starts playing
-      myVideo2.addEventListener("play", () => {
-        playButton.classList.add("hidden");
-        thumbnailTitle.classList.add("hidden");
-      });
+      // myVideo2.addEventListener("play", () => {
+      //   playButton.classList.add("hidden");
+      //   thumbnailTitle.classList.add("hidden");
+      // });
 
-        const video = document.getElementById("background-video1");
-        const button = document.getElementById("resizeButton");
-        let isLarge = false;
+        // const video = document.getElementById("background-video1");
+        // const button = document.getElementById("resizeButton");
+        // let isLarge = false;
 
-        button.addEventListener("click", () => {
-          if (isLarge) {
-            video.style.width = "100%";
-            video.style.height = "75vh";
-            isLarge = false;
-          } else {
-            video.style.width = "100%";
-            video.style.height = "100vh";
-            isLarge = true;
-          }
-        });
+        // button.addEventListener("click", () => {
+        //   if (isLarge) {
+        //     video.style.width = "100%";
+        //     video.style.height = "75vh";
+        //     isLarge = false;
+        //   } else {
+        //     video.style.width = "100%";
+        //     video.style.height = "100vh";
+        //     isLarge = true;
+        //   }
+        // });
 
     </script>
     <!-- base javascript file -->

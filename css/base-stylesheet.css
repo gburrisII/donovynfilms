@@ -155,11 +155,11 @@ outline: none;
   z-index: 1;
 }
 
-.tumbnail_title_mobile2 {
+.tumbnail_title_2 {
   font-size: 2rem;
   font-family: "Archivo Black", sans-serif;
   color: white;
-  /* padding: 1rem; */
+  padding: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -167,12 +167,11 @@ outline: none;
   z-index: 1;
 }
 
-
-.tumbnail_title_2 {
+.tumbnail_title_mobile2 {
   font-size: 2rem;
   font-family: "Archivo Black", sans-serif;
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
   position: absolute;
   top: 50%;
   left: 50%;
