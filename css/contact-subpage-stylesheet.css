@@ -271,7 +271,7 @@ nav {
   background-position-x: center;
   background-position-y: center;
   object-fit: cover;
-  object-position: bottom;
+  object-position: top;
   /* The CSS property object-fit: cover is used to adjust to any image frame/size for all devices */
 }
 
