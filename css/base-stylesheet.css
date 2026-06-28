@@ -169,6 +169,29 @@ outline: none;
   outline: none;
   }
 
+#playPauseButton_mobile5 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  /* background-color: rgba(0,0,0,.4); */
+  /* background-color: white; */
+  background: transparent;
+  border: none;
+  /* padding: 1rem; */
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#playPauseButton_mobile5:focus {
+  outline: none;
+  }
+
 #playPauseButton:focus {
   outline: none;
 }
@@ -238,6 +261,18 @@ outline: none;
   z-index: 1;
 }
 
+.tumbnail_title_5 {
+  font-size: 2rem;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 .tumbnail_title_mobile2 {
   font-size: 2rem;
   font-family: "Archivo Black", sans-serif;
@@ -263,6 +298,18 @@ outline: none;
 }
 
 .tumbnail_title_mobile4 {
+  font-size: 2rem;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  /* padding: 1rem; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.tumbnail_title_mobile5 {
   font-size: 2rem;
   font-family: "Archivo Black", sans-serif;
   color: white;
@@ -343,6 +390,29 @@ outline: none;
   outline: none;
 }
 
+#playPauseButton5 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  /* background-color: rgba(0,0,0,.4); */
+  /* background-color: white; */
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size: 2rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#playPauseButton5:focus {
+  outline: none;
+}
+
 .hidden {
   display: none;
 }
@@ -379,6 +449,14 @@ outline: none;
   object-fit: cover;
 }
 
+#background-video5 {
+  width: 100%;
+  height: 75vh;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
 #background-video-mobile1 {
   width: 100%;
   height: 75vh;
@@ -404,6 +482,14 @@ outline: none;
 }
 
 #background-video-mobile4 {
+  width: 100%;
+  height: 75vh;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#background-video-mobile5 {
   width: 100%;
   height: 75vh;
   bottom: 0;

@@ -118,6 +118,39 @@
   <!-- content code -->
   <!-- content section for Moblie -->
   <div class="hide-on-desktop-aboutme show-on-mobile">
+
+       <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
+      <div style="padding-top: 1rem;"
+        class="video-container-mobile mobile-text-container-settings iphone-se-container-settings">
+        <!-- background-video -->
+        <video playsinline loop id="background-video-mobile5">
+          <source src="./images/1080 danve water.mov" type="video/mp4" />
+        </video>
+        <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_mobile5 ipad-media-settings">
+          DANCE WATER<br>
+          <p style="font-size: 1rem !important;">MADE FOR MOVERS<br>MIAMI, 2026</p>
+        </h1>
+        <br>
+        <button id="playPauseButton_mobile5"><i class="fa-solid fa-play"></i></button>
+      </div>
+    </section>
+
+        <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
+      <div style="padding-top: 1rem;"
+        class="video-container-mobile mobile-text-container-settings iphone-se-container-settings">
+        <!-- background-video -->
+        <video playsinline loop id="background-video-mobile4">
+          <source src="./images/coachfinal.mov" type="video/mp4" />
+        </video>
+        <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_mobile4 ipad-media-settings">
+          COACH<br>
+          <p style="font-size: 1rem !important;">A STORY WORTH WEARING<br>NEW YORK, 2026</p>
+        </h1>
+        <br>
+        <button id="playPauseButton_mobile4"><i class="fa-solid fa-play"></i></button>
+      </div>
+    </section>
+
     <section class="content-section-mobile mobile-section-settings iphone-se-section-settings">
       <div style="padding-top: 1rem;"
         class="video-container-mobile mobile-text-container-settings iphone-se-container-settings">
@@ -168,6 +201,32 @@
 
   <!-- content section for Desktop & Ipad -->
   <div class="show-on-desktop-aboutme hide-on-mobile">
+
+       <section class="video-container">
+      <!-- background-video -->
+      <video playsinline loop id="background-video5">
+        <source src="./images/1080 danve water.mov" type="video/mp4" />
+      </video>
+      <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_5 ipad-media-settings">
+        DANCE WATER<br>
+        <p style="font-size: 1rem !important;">MADE FOR MOVERS<br>MIAMI, 2026</p>
+      </h1>
+      <br />
+      <button id="playPauseButton5"><i class="fa-solid fa-play"></i></button>
+    </section>
+
+     <section class="video-container">
+      <!-- background-video -->
+      <video playsinline loop id="background-video4">
+        <source src="./images/coachfinal.mov" type="video/mp4" />
+      </video>
+      <h1 style="padding: 1rem; text-align: center !important" class="tumbnail_title_4 ipad-media-settings">
+        COACH<br>
+        <p style="font-size: 1rem !important;">A STORY WORTH WEARING<br>NEW YORK, 2026</p>
+      </h1>
+      <br />
+      <button id="playPauseButton4"><i class="fa-solid fa-play"></i></button>
+    </section>
 
     <section class="video-container">
       <!-- background-video -->
@@ -318,6 +377,66 @@
       thumbnailTitleMobile3.classList.add("hidden");
     });
 
+        // Function for Video 4
+    const myVideoMobile4 = document.getElementById("background-video-mobile4");
+    const playButtonMobile4 = document.getElementById("playPauseButton_mobile4");
+    const thumbnailTitleMobile4 = document.querySelector(".tumbnail_title_mobile4");
+
+    // Play video when the button is clicked
+    playButtonMobile4.addEventListener("click", () => {
+      myVideoMobile4.play(); // just play, not toggle
+    });
+
+    // Pause video when the video itself is clicked
+    myVideoMobile4.addEventListener("click", () => {
+      if (!myVideoMobile4.paused) {
+        myVideoMobile4.pause();
+      }
+    });
+
+    // Show button when video is paused or ended
+    myVideoMobile4.addEventListener("pause", () => {
+      playButtonMobile4.classList.remove("hidden");
+      thumbnailTitleMobile4.classList.remove("hidden");
+      playButtonMobile4.innerHTML = '<i class="fa-solid fa-play"></i>';
+    });
+
+    // Hide button when video starts playing
+    myVideoMobile4.addEventListener("play", () => {
+      playButtonMobile4.classList.add("hidden");
+      thumbnailTitleMobile4.classList.add("hidden");
+    });
+
+
+        // Function for Video 5
+    const myVideoMobile5 = document.getElementById("background-video-mobile5");
+    const playButtonMobile5 = document.getElementById("playPauseButton_mobile5");
+    const thumbnailTitleMobile5 = document.querySelector(".tumbnail_title_mobile5");
+
+    // Play video when the button is clicked
+    playButtonMobile5.addEventListener("click", () => {
+      myVideoMobile5.play(); // just play, not toggle
+    });
+
+    // Pause video when the video itself is clicked
+    myVideoMobile5.addEventListener("click", () => {
+      if (!myVideoMobile5.paused) {
+        myVideoMobile5.pause();
+      }
+    });
+
+    // Show button when video is paused or ended
+    myVideoMobile5.addEventListener("pause", () => {
+      playButtonMobile5.classList.remove("hidden");
+      thumbnailTitleMobile5.classList.remove("hidden");
+      playButtonMobile5.innerHTML = '<i class="fa-solid fa-play"></i>';
+    });
+
+    // Hide button when video starts playing
+    myVideoMobile5.addEventListener("play", () => {
+      playButtonMobile5.classList.add("hidden");
+      thumbnailTitleMobile5.classList.add("hidden");
+    });
     
     // Desktop & Ipad
     // Function for Video 1
@@ -410,6 +529,65 @@
       thumbnailTitle3.classList.add("hidden");
     });
 
+           // Function for Video 4
+    const myVideo4 = document.getElementById("background-video4");
+    const playButton4 = document.getElementById("playPauseButton4");
+    const thumbnailTitle4 = document.querySelector(".tumbnail_title_4");
+
+    // Play video when the button is clicked
+    playButton4.addEventListener("click", () => {
+      myVideo4.play(); // just play, not toggle
+    });
+
+    // Pause video when the video itself is clicked
+    myVideo4.addEventListener("click", () => {
+      if (!myVideo4.paused) {
+        myVideo4.pause();
+      }
+    });
+
+    // Show button when video is paused or ended
+    myVideo4.addEventListener("pause", () => {
+      playButton4.classList.remove("hidden");
+      thumbnailTitle4.classList.remove("hidden");
+      playButton4.innerHTML = '<i class="fa-solid fa-play"></i>';
+    });
+
+    // Hide button when video starts playing
+    myVideo4.addEventListener("play", () => {
+      playButton4.classList.add("hidden");
+      thumbnailTitle4.classList.add("hidden");
+    });
+
+               // Function for Video 5
+    const myVideo5 = document.getElementById("background-video5");
+    const playButton5 = document.getElementById("playPauseButton5");
+    const thumbnailTitle5 = document.querySelector(".tumbnail_title_5");
+
+    // Play video when the button is clicked
+    playButton5.addEventListener("click", () => {
+      myVideo5.play(); // just play, not toggle
+    });
+
+    // Pause video when the video itself is clicked
+    myVideo5.addEventListener("click", () => {
+      if (!myVideo5.paused) {
+        myVideo5.pause();
+      }
+    });
+
+    // Show button when video is paused or ended
+    myVideo5.addEventListener("pause", () => {
+      playButton5.classList.remove("hidden");
+      thumbnailTitle5.classList.remove("hidden");
+      playButton5.innerHTML = '<i class="fa-solid fa-play"></i>';
+    });
+
+    // Hide button when video starts playing
+    myVideo5.addEventListener("play", () => {
+      playButton5.classList.add("hidden");
+      thumbnailTitle5.classList.add("hidden");
+    });
   </script>
 
   <!-- base javascript file -->
